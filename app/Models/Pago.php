@@ -9,7 +9,7 @@ class Pago extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['id', 'amount', 'date','status'];
+    protected $fillable = ['id', 'amount', 'date','status','prestamo_id'];
 
     public function prestamo()
     {
